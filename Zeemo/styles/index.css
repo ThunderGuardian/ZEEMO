@@ -1,0 +1,169 @@
+:root {
+  --gray-1: #46515e;
+  --gray-2: #303841;
+
+  --white: #eeeeee;
+
+  --black: #1a1f24;
+
+  --orange-1: #ff7e55;
+  --orange-2: #ff5722;
+  --orange-3: #b63f1a;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar > .container-fluid {
+  justify-content: space-between;
+}
+
+.card-cover {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  /* background: rgba(0, 0, 0, 0.3); */
+}
+
+body {
+  background-color: var(--gray-2);
+  color: var(--white);
+}
+
+.services {
+  color: var(--orange-3);
+}
+
+.hero {
+  padding-bottom: 5em;
+}
+
+.reviews {
+  color: var(--gray-2);
+  margin-bottom: 5em;
+}
+
+footer {
+  padding-bottom: 0;
+  background-color: var(--black);
+}
+
+.nav-link {
+  transition: 0.5s ease;
+}
+
+.nav-link:hover {
+  color: var(--orange-1);
+}
+
+.btn {
+  background-color: var(--orange-1);
+  border: none;
+}
+
+.get-started-btn:hover {
+  background-color: var(--orange-2);
+}
+
+.ratings > i {
+  color: var(--orange-1);
+}
+
+#contact-btn {
+  border: 1px solid var(--orange-1);
+  background-color: var(--gray-2);
+  color: var(--orange-1);
+  transition: 0.5s ease;
+}
+
+#contact-btn:hover {
+  background-color: var(--orange-1);
+  color: var(--white);
+}
+
+.socials {
+  color: var(--orange-1);
+}
+
+.newsletter-btn:hover {
+  background-color: var(--orange-2);
+}
+
+#services {
+  background-color: var(--black);
+
+  border-radius: 50px;
+  margin-bottom: 5em;
+}
+
+.service-name {
+  text-decoration: none;
+  color: var(--orange-3);
+}
+
+.service-name:hover {
+  color: var(--orange-2);
+}
+
+h2 > .services:hover {
+  color: var(--orange-2);
+}
+
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 0.8s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+.hidden1 {
+  opacity: 0;
+  filter: blur(5px);
+  transition: all 0.8s;
+}
+
+.show1 {
+  opacity: 1;
+  filter: blur(0);
+}
+
+.nav-link {
+  color: white;
+}
+
+.card-cover:hover {
+  scale: (5);
+
+  /* color: var(--orange-2); */
+}
+
+.services-card:nth-child(2) {
+  transition-delay: 200ms;
+}
+
+.services-card:nth-child(3) {
+  transition-delay: 400ms;
+}
+
+.services-card:nth-child(4) {
+  transition-delay: 600ms;
+}
+
+.nav-item:nth-child(2) {
+  transition-delay: 200ms;
+}
+
+.nav-item:nth-child(3) {
+  transition-delay: 400ms;
+}
+
+.nav-item:nth-child(4) {
+  transition-delay: 600ms;
+}

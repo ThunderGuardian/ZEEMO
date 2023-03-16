@@ -1,0 +1,35 @@
+:root {
+  --gray-1: #46515e;
+  --gray-2: #303841;
+
+  --white: #eeeeee;
+
+  --black: #1a1f24;
+
+  --orange-1: #ff7e55;
+  --orange-2: #ff5722;
+  --orange-3: #b63f1a;
+}
+
+body {
+  background-color: #1a1f24;
+  color: #eeeeee;
+}
+
+.btn {
+  background-color: #ff5722;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #b63f1a;
+  border: none;
+}
+
+.card-body {
+  color: #1a1f24;
+}
+
+#offer {
+  color: #ff7e55;
+}

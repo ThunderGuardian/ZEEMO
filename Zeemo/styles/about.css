@@ -1,0 +1,62 @@
+body {
+  color: white;
+  background-color: black;
+}
+
+#about {
+  background-color: #ff5722;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 0;
+  padding: 1em;
+}
+
+.box {
+  background-color: #46515e;
+  margin: 50px 25px 60px;
+  padding: 0 70px;
+  box-shadow: 10px 10px #303841;
+}
+.para {
+  padding: 1em;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+#box2 {
+  margin: 50px 25px 75px;
+}
+
+/* Testimonials */
+#testimonials {
+  padding: 0 15%;
+  text-align: center;
+  background-color: #ff5722;
+  color: white;
+}
+
+#carousel {
+  font-size: 3rem;
+  line-height: 1.5;
+  padding: 0 10%;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+}
+
+/* Press */
+#press {
+  background-color: #ff5722;
+  text-align: center;
+}
+
+.presslogo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}

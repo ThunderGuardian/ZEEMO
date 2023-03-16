@@ -1,0 +1,103 @@
+body {
+  color: white;
+  background-color: black;
+}
+
+#head {
+  background-color: #ff5722;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 0;
+  padding: 0.5em;
+}
+
+.slo {
+  text-align: center;
+  line-height: 2rem;
+  padding: 19rem 0 0 4rem;
+}
+
+#slogan {
+  font-size: 40px;
+  padding-bottom: 3rem;
+}
+
+#slopara {
+  font-size: 27px;
+}
+
+#intro-img {
+  width: 85%;
+  border-radius: 100px;
+}
+
+#mid {
+  padding-top: 5rem;
+  font-size: 30px;
+  line-height: 2;
+}
+.midh {
+  background-color: #ff5722;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 0;
+  padding: 1em 0;
+  margin-bottom: 14px;
+}
+.mid-para {
+  padding: 0 30px;
+}
+
+#chooseh {
+  text-align: center;
+  margin: 5rem 0;
+  font-size: 4rem;
+}
+
+.featurebox {
+  background-color: #46515e;
+  margin: 50px 25px 60px;
+  padding: 0 70px;
+  box-shadow: 10px 10px #303841;
+  width: max-content;
+  text-align: center;
+}
+
+body {
+  color: white !important;
+  background-color: #1a1f24 !important;
+}
+footer {
+  background-color: #ff5722;
+  text-align: center;
+  height: 50px;
+  padding-top: 1rem;
+}
+
+.featurebox:hover {
+  background-color: #ff5722;
+  box-shadow: 10px 10px #bb3006;
+}
+
+.choosepara {
+  font-size: 20px;
+}
+
+.feature-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 85px;
+}
+
+#pricehead {
+  font-size: 3rem;
+}
+
+#pricing {
+  text-align: center;
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
